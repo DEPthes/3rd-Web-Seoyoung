@@ -1,0 +1,308 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  font-family: "Inter";
+}
+
+.background {
+  width: 1440px;
+  height: 1024px;
+  top: -512px;
+  left: -720px;
+  gap: 0px;
+  opacity: 0px;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input,
+label {
+  font-family: Inter;
+  font-optical-sizing: auto;
+}
+.phone {
+  display: flex;
+  margin-top: 96px;
+}
+
+#home {
+  width: 520px;
+  height: 780px;
+  top: 96px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 10px;
+  margin-left: 216px;
+  margin-right: 72px;
+}
+
+.ractangle_1 {
+  display: flex;
+  flex-direction: column;
+  grid-auto-rows: auto;
+  align-items: center;
+}
+
+.ractangle_2 {
+  width: 416px;
+  height: 559px;
+  top: 96px;
+  left: 808px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.mainlogo {
+  width: 217px;
+  height: 80px;
+  top: 166px;
+  left: 907px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 70px 57px 99px 100px;
+  margin-bottom: 57px;
+}
+
+.signup-form {
+  margin-top: 0;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 60px 70px 54px 34px 74px 20px;
+  align-self: center;
+}
+
+.input_email {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: Fill (320px) px;
+  height: Hug (50px) px;
+  gap: 6px;
+  opacity: 0px;
+  width: Fill (320px) px;
+  height: Fixed (50px) px;
+  padding: 10px 14px 10px 14px;
+  gap: 8px;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #b2b2b2;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+#email {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.input_password {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: Fill (320px) px;
+  height: Hug (50px) px;
+  gap: 6px;
+  opacity: 0px;
+  width: Fill (320px) px;
+  height: Fixed (50px) px;
+  padding: 10px 14px 10px 14px;
+  gap: 8px;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #b2b2b2;
+  margin-bottom: 20px;
+}
+
+#password {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.login {
+  width: 320px;
+  height: 44px;
+  top: 433px;
+  left: 856px;
+  gap: 0px;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 0px;
+  background: #b2ddff;
+  margin-top: 0;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#or {
+  margin-top: 0;
+  text-align: center;
+}
+
+#kakao {
+  width: 22px;
+  height: 22px;
+  top: 532px;
+  left: 958px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.kakao_login_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kakao_login {
+  width: 320px;
+  height: 44px;
+  top: 521px;
+  left: 856px;
+  gap: 0px;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 0px;
+  background: #f8d706;
+  margin-top: 0;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#kakao_label {
+  cursor: pointer;
+}
+
+#search {
+  margin-top: 0;
+  text-align: center;
+}
+
+.ractangle_3 {
+  width: 416px;
+  height: 86px;
+  top: 665px;
+  left: 808px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  align-content: center;
+  text-align: center;
+  margin-top: 0;
+}
+#or {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.ractangle_4 {
+  justify-self: center;
+}
+
+#search {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+#join {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.download_label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#download {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.ractangle_4 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  column-gap: 10px;
+}
+
+.btn1 {
+  background-image: url("Mobile\ app\ store\ badge.png");
+  border: none;
+  padding: 0%;
+  width: 135px;
+  height: 40px;
+  top: 805px;
+  left: 883px;
+  gap: 0px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-image: url("Mobile\ app\ store\ badge2.png");
+  border: none;
+  width: 120px;
+  height: 40px;
+  top: 805px;
+  left: 1028px;
+  gap: 0px;
+  border-radius: 7px 7px 7px 7px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  cursor: pointer;
+}
+
+.text {
+  text-align: center;
+}
